@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
-</head>
-<center>
-<body>
-    <h> Nwaf'sCards game </h>
-    <div id="cards"></div>
-    <p>Score</p>
-    <div id = "actins" ></div>
-    <button>restart</button>
-    <div id = "restart"></div>
-
-</center>
-    
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>MemoryGame_TL.Is</title>
+  </head>
+  <body>
+    <h1>Time: <span id="demo">60</span>/60</h1>
+    <center>
+      <h1> Nawaf's Card Game</h1>
+      <div class="cards"></div>
+      <p>Score: <span class="Score"></span></p>
+      <div class="actions">
+        <button onclick="restart()">Restart</button>
+      </div>
+    </center>
 </body>
-<script src=""></script>
+<script src="script.js"></script>
+<script src="confetti.js"></script>
+
 </html>
