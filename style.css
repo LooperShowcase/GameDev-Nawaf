@@ -1,0 +1,58 @@
+    /* Reset default styles */
+#cards{
+    display: grid;
+    justify-content: center;
+    grid-gap: 16px;
+    grid-template-columns: repeat(6,140px);
+    grid-template-rows: repeat(2,210px);
+
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a beautiful background image */
+body {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This keeps the background fixed as you scroll */
+    font-family: Arial, sans-serif; /* Choose your preferred font-family */
+    color: #333; /* Set the default text color */
+}
+
+/* Style the header */
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the header */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background to the content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow to the content */
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
